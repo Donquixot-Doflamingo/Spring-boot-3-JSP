@@ -1,4 +1,4 @@
-package com.course.ProjectUnderstading.MiniProject1.Game;
+package com.course.couplingBasics.coupling1.suportClasses;
 
 public class MarioGame {
 	void up() {
