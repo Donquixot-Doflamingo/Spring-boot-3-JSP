@@ -1,4 +1,4 @@
-package com.course.couplingBasics.coupling3.main;
+package com.course.couplingBasics.basicSpring;
 
 import java.util.Arrays;
 import java.util.List;
@@ -15,7 +15,7 @@ record Address(String area, String street) {};
 record Identity(String name, int age, Address address) {};
 
 @Configuration
-public class Coupling3Confuguration {
+public class SpringBasicConfuguration {
 
 	@Bean
 	public String name() {
