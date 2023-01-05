@@ -1,10 +1,10 @@
 package com.course.couplingBasics.coupling1.suportClasses;
 
-public class GameRunner {
+public class GameRunnerCoupling1 {
 
-	MarioGame marioGame;	
+	MarioGameCoupling1 marioGame;	
 	
-	public GameRunner(MarioGame marioGame) {
+	public GameRunnerCoupling1(MarioGameCoupling1 marioGame) {
 		this.marioGame = marioGame;
 	}
 

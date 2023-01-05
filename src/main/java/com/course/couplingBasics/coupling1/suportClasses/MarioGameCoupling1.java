@@ -1,6 +1,6 @@
 package com.course.couplingBasics.coupling1.suportClasses;
 
-public class MarioGame {
+public class MarioGameCoupling1 {
 	void up() {
 		System.out.println("Jumping");
 	}
