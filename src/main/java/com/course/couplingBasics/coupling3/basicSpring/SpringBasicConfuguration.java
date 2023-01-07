@@ -1,4 +1,4 @@
-package com.course.couplingBasics.basicSpring;
+package com.course.couplingBasics.coupling3.basicSpring;
 
 import java.util.Arrays;
 import java.util.List;
