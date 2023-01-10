@@ -2,9 +2,10 @@ package com.course.SpringIntro.Part1.excercise.service;
 
 import java.util.Arrays;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+//@Component
+@Service
 public class BusinessModel {
 	private DataService service;
 

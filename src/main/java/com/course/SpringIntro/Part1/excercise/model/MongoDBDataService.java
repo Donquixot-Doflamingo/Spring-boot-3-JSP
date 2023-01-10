@@ -1,11 +1,12 @@
 package com.course.SpringIntro.Part1.excercise.model;
 
 import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import com.course.SpringIntro.Part1.excercise.service.DataService;
 
-@Component
+//@Component
+@Repository
 @Primary
 public class MongoDBDataService implements DataService {
 

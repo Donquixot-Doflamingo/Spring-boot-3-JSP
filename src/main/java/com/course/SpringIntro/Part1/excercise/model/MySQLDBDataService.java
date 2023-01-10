@@ -1,10 +1,11 @@
 package com.course.SpringIntro.Part1.excercise.model;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import com.course.SpringIntro.Part1.excercise.service.DataService;
 
-@Component
+//@Component
+@Repository
 public class MySQLDBDataService implements DataService {
 
 	@Override
