@@ -12,10 +12,10 @@ public class CommandLineRunnerSpring implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		jdbcRepo.insert();
-		jdbcRepo.insert(new CourseJdbc(2, "MUSKAN", "How to be a genuis"));
-		jdbcRepo.deleteById(1);
-		System.out.println(jdbcRepo.selectById(2));
+//		jdbcRepo.insert();
+//		jdbcRepo.insert(new CourseJdbc(2, "MUSKAN", "How to be a genuis"));
+//		jdbcRepo.deleteById(1);
+//		System.out.println(jdbcRepo.selectById(2));
 		
 	}
 
